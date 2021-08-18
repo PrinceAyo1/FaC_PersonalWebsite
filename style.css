@@ -1,0 +1,29 @@
+html
+{ font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.heading {
+  color: red;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px; 
+}
+.about {
+  color: blue;
+}
+.experience {
+  color: green;
+}
+.why {
+  color: yellow;
+}
