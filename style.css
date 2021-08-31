@@ -1,10 +1,30 @@
 html
 { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+background-color: white;
+color: white;
 }
 
+body {
+  margin: 0;
+}
 
+h1, h2, p {
+  margin: 0;
+}
+div.heading{
+  background-color: #99d3df;
+}
+div.about{
+  background-color: #88bbd6;
+}
+div.experience{
+background-color: #cdcdcd;
+}
+div.why{
+background-color: #e9e9e9;
+}
 .heading {
-  color: red;
+  /*color: white;*/
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -12,22 +32,22 @@ html
   line-height: 26.4px;
 }
 .about {
-  color: blue;
+  /*color: blue;*/
 }
 .experience {
-  color: green;
+  /*color: green;*/
 }
 .why {
-  color: yellow;
+  /*color: yellow;*/
 }
 
 p.about {
-  color: pink;
+/*  color: pink;*/
 }
 p.experience {
-  color: gold;
+  /*color: gold;*/
 }
 
 p.why {
-  color: purple;
+/*  color: purple;*/
 }
