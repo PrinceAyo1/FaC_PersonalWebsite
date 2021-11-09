@@ -1,28 +1,32 @@
-html
-{ font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-background-color: white;
-color: white;
+html {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
+  background-color: white;
+  color: white;
 }
 
 body {
   margin: 0;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   margin: 0;
 }
-div.heading{
+div.heading {
   background-color: rgb(50, 111, 180);
 }
-div.about{
+div.about {
   background-color: white;
 }
-div.experience{
-background-color: rgb(50, 111, 180);
+div.experience {
+  background-color: rgb(50, 111, 180);
 }
-div.why{
-background-color: white;
+div.why {
+  background-color: white;
 }
+
 .heading {
   /*color: white;*/
   font-size: 24px;
@@ -42,12 +46,16 @@ background-color: white;
 }
 
 p.about {
- color: pink;
+  color: pink;
 }
 p.experience {
   color: gold;
 }
 
 p.why {
-/*  color: purple;*/
+  color: purple;
+}
+
+li {
+  display: inline;
 }
