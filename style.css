@@ -33,21 +33,22 @@ ul.navigationBar {
   align-items: center;
   justify-content: space-between;
   gap: 1em;
-}
-li.menu {
-  display: flex;
-  justify-content: flex-end;
   font-size: 15px;
 }
 
 /*This section covers the main details of the website. I intend to put each sub-section under a heading. If need be I will group things together later*/
 
-.mainDetails {
-  /* display: flex;*/
-}
+/*.mainDetails {
+   display: flex;
+}*/
 
 div.about {
   background-color: white;
+}
+div.aboutDetails {
+  color: pink;
+  display: flex;
+  flex: 0 1 auto;
 }
 div.experience {
   background-color: rgb(50, 111, 180);
@@ -84,9 +85,7 @@ div.why {
 #projectgallery {
   color: rgb(218, 22, 22);
 }
-p.aboutDetails {
-  color: pink;
-}
+
 p.experienceDetails {
   color: gold;
 }
