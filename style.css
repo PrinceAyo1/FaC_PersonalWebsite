@@ -8,12 +8,20 @@ html {
 body {
   margin: 0;
 }
+/*this section overrides margins that might apply to h1s and h2s*/
+h1,
+h2,
+p {
+  margin: 0;
+}
 
+/*This section covers Title (with my name, Navigation Bar, and each menu item*/
 .titleAndMenu {
   margin: 0;
   display: flex;
   /*align-items: center;*/
   justify-content: center;
+  gap: 1em;
 }
 
 ul.navigationBar {
@@ -22,19 +30,20 @@ ul.navigationBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1em;
 }
 li.menu {
   display: flex;
-  justify-content: space-between;
-  margin: 1em;
+  justify-content: flex-end;
   font-size: 12px;
 }
 
-h1,
-h2,
-p {
-  margin: 0;
+/*This section covers the main details of the website. I intend to put each sub-section under a heading. If need be I will group things together later*/
+
+.mainDetails {
+  /* display: flex;*/
 }
+
 div.heading {
   background-color: rgb(50, 111, 180);
 }
