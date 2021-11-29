@@ -53,6 +53,7 @@ div.aboutDetails {
   align-items: flex-start;
   justify-content: space-between;
   gap: 1em;
+  color: #000;
 }
 
 div.why {
@@ -82,7 +83,7 @@ div.why {
 .freecodecamp {
   color: black;
 }
-#projectgallery {
+.projectLinks {
   color: rgb(218, 22, 22);
 }
 
