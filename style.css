@@ -49,10 +49,12 @@ div.aboutDetails {
   color: pink;
   display: flex;
   flex: 0 1 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1em;
 }
-div.experience {
-  background-color: rgb(50, 111, 180);
-}
+
 div.why {
   background-color: white;
 }
@@ -68,9 +70,7 @@ div.why {
 .aboutTitle {
   color: blue;
 }
-.experienceTitle {
-  color: white;
-}
+
 .whyTitle {
   color: blue;
 }
@@ -84,10 +84,6 @@ div.why {
 }
 #projectgallery {
   color: rgb(218, 22, 22);
-}
-
-p.experienceDetails {
-  color: gold;
 }
 
 p.whyDetails {
