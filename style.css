@@ -11,12 +11,16 @@ body {
 
 .titleAndMenu {
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
+  justify-content: center;
 }
 
-ul {
+ul.navigationBar {
+  padding: 0;
   list-style-type: none;
   display: flex;
+  /*align-items: center;*/
+  justify-content: space-between;
 }
 
 h1,
