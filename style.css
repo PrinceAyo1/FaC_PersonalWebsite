@@ -29,7 +29,7 @@ div.why {
   background-color: white;
 }
 
-.heading {
+.title {
   /*color: white;*/
   font-size: 24px;
   font-style: normal;
@@ -37,14 +37,14 @@ div.why {
   font-weight: 700;
   line-height: 26.4px;
 }
-.about {
+.aboutTitle {
   color: blue;
 }
-.experience {
+.experienceTitle {
   color: white;
 }
-.why {
-  color: yellow;
+.whyTitle {
+  color: blue;
 }
 
 .github {
@@ -57,14 +57,14 @@ div.why {
 #projectgallery {
   color: rgb(218, 22, 22);
 }
-p.about {
+p.aboutDetails {
   color: pink;
 }
-p.experience {
+p.experienceDetails {
   color: gold;
 }
 
-p.why {
+p.whyDetails {
   color: purple;
 }
 
