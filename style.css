@@ -19,11 +19,13 @@ p {
 .titleAndMenu {
   margin: 0;
   display: flex;
-  /*align-items: center;*/
-  justify-content: center;
-  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
 }
 
+div.heading {
+  background-color: rgb(50, 111, 180);
+}
 ul.navigationBar {
   padding: 0;
   list-style-type: none;
@@ -35,7 +37,7 @@ ul.navigationBar {
 li.menu {
   display: flex;
   justify-content: flex-end;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /*This section covers the main details of the website. I intend to put each sub-section under a heading. If need be I will group things together later*/
@@ -44,9 +46,6 @@ li.menu {
   /* display: flex;*/
 }
 
-div.heading {
-  background-color: rgb(50, 111, 180);
-}
 div.about {
   background-color: white;
 }
