@@ -1,7 +1,7 @@
 html {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
     "Lucida Sans", Tahoma, sans-serif;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: rgb(10, 10, 10);
 }
 
@@ -21,10 +21,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #4cc9f0;
 }
 
 div.heading {
-  background-color: rgb(50, 111, 180);
 }
 ul.navigationBar {
   padding: 0;
@@ -43,7 +43,7 @@ ul.navigationBar {
 }*/
 
 div.about {
-  background-color: white;
+  background-color: rgb(50, 111, 180);
 }
 div.aboutDetails {
   color: pink;
@@ -53,7 +53,7 @@ div.aboutDetails {
   align-items: flex-start;
   justify-content: space-between;
   gap: 1em;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 div.why {
