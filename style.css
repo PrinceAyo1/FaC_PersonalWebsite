@@ -57,7 +57,7 @@ div.aboutDetails {
 }
 
 div.why {
-  background-color: white;
+  background-color: rgb(156, 192, 233);
 }
 
 .title {
@@ -88,5 +88,5 @@ div.why {
 }
 
 p.whyDetails {
-  color: purple;
+  color: rgb(255, 255, 255);
 }
