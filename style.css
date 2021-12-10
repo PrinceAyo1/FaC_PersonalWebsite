@@ -18,7 +18,7 @@ body {
 /* A container to centre the page */
 
 .container {
-  width: 1000px;
+  width: 1250px;
   margin: 0 auto;
 }
 /*this section aligns texts to "justify" for h1s, h2s and p tags. I have changed the font weight of the h1s and h2s*/
@@ -74,13 +74,13 @@ header {
 .aboutTitle {
   color: blue;
   margin: 10px 0;
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 
 .whyTitle {
   color: blue;
   margin: 10px 0;
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 
 /* The bodies of each section */
@@ -93,8 +93,6 @@ header {
 .aboutDetails {
   color: rgb(255, 255, 255);
   display: flex;
-  flex: 0 1 auto;
-
   align-items: flex-start;
   justify-content: space-around;
   gap: 10px;
@@ -104,28 +102,23 @@ header {
 
 .why {
   background-color: rgb(156, 192, 233);
-  padding: 25px 0;
+  padding: 15px 10px;
 }
 
 p.whyDetails {
   color: rgb(255, 255, 255);
 }
 #projectLinks {
-  padding: 25px 0;
-  /* width: 500px; */
   background-color: #eeeeee;
 }
 
-/*
-.github {
-  color: black;
+ul.projectLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 25px 10px;
 }
-
-.freecodecamp {
-  color: black;
-}
-
-*/
 
 /* removed bullet points */
 ul {
@@ -141,7 +134,14 @@ ul {
   display: flex;
   gap: 3px;
   flex-direction: column;
-  /* flex: 0 1 auto; */
+  flex: 1 0 5px;
+  align-self: stretch;
+  padding: 10px;
+  /* Accordion Design */
+}
+.chevron {
+  width: 24px;
+  height: 24px;
 }
 /* LVHA */
 a:link {
