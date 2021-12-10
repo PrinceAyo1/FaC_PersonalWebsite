@@ -1,6 +1,8 @@
+/* Applied new global reset to override all paddings and margins */
 * {
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 body {
@@ -12,7 +14,14 @@ body {
   /* margin-left: 20px;
   margin-right: 40px; */
 }
-/*this section overrides margins that might apply to h1s, h2s and p tags. I also justified the text. I have changed the font weight of the h1s and h2s*/
+
+/* A container to centre the page */
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+/*this section aligns texts to "justify" for h1s, h2s and p tags. I have changed the font weight of the h1s and h2s*/
 h1,
 h2,
 p {
@@ -44,26 +53,15 @@ h2 {
 
 /*This section covers the main details of the website. I intend to put each sub-section under a heading. If need be I will group things together later*/
 
-/*.mainDetails {
-   display: flex;
-}*/
-
-.about {
-  background-color: rgb(50, 111, 180);
-}
-.aboutDetails {
-  color: rgb(255, 255, 255);
+/* .mainDetails {
   display: flex;
-  flex: 0 1 auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1em;
-}
+} */
 
-.why {
-  background-color: rgb(156, 192, 233);
+header {
+  margin: 10px 0;
+  padding: 30px 0;
 }
+/* The Titles */
 
 .title {
   /*color: white;*/
@@ -75,11 +73,49 @@ h2 {
 }
 .aboutTitle {
   color: blue;
+  margin: 10px 0;
+  padding: 15px 0;
 }
 
 .whyTitle {
   color: blue;
+  margin: 10px 0;
+  padding: 15px 0;
 }
+
+/* The bodies of each section */
+.about {
+  background-color: rgb(50, 111, 180);
+  margin: 10px 0;
+  padding: 15px 0;
+}
+
+.aboutDetails {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex: 0 1 auto;
+
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.why {
+  background-color: rgb(156, 192, 233);
+  padding: 25px 0;
+}
+
+p.whyDetails {
+  color: rgb(255, 255, 255);
+}
+#projectLinks {
+  padding: 25px 0;
+  /* width: 500px; */
+  background-color: #eeeeee;
+}
+
 /*
 .github {
   color: black;
@@ -88,13 +124,9 @@ h2 {
 .freecodecamp {
   color: black;
 }
-.projectLinks {
-  color: rgb(218, 22, 22);
-}
+
 */
-p.whyDetails {
-  color: rgb(255, 255, 255);
-}
+
 /* removed bullet points */
 ul {
   list-style: none;
@@ -106,6 +138,10 @@ ul {
 .theStudent,
 .theSinger {
   border: 2px solid white;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  /* flex: 0 1 auto; */
 }
 /* LVHA */
 a:link {
@@ -125,3 +161,8 @@ a:hover {
 a:active {
   background-color: yellowgreen;
 }
+/* Images */
+/* img {
+  width: auto;
+  height: auto;
+} */
