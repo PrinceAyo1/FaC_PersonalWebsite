@@ -106,3 +106,21 @@ ul {
 .theSinger {
   border: 2px solid white;
 }
+/* LVHA */
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline red;
+}
+a:active {
+  background-color: yellowgreen;
+}
