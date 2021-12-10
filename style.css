@@ -24,9 +24,10 @@ p {
   background-color: #4cc9f0;
 }
 
-div.heading {
+.heading {
+  color: black;
 }
-ul.navigationBar {
+.navigationBar {
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -46,14 +47,13 @@ div.about {
   background-color: rgb(50, 111, 180);
 }
 div.aboutDetails {
-  color: pink;
+  color: rgb(255, 255, 255);
   display: flex;
   flex: 0 1 auto;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 1em;
-  color: rgb(255, 255, 255);
 }
 
 div.why {
