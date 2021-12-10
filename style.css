@@ -143,6 +143,21 @@ ul {
   width: 24px;
   height: 24px;
 }
+.carousel {
+  background-color: rgb(88, 88, 88);
+}
+.carousel img {
+  width: 175px;
+  height: 175px;
+}
+
+.stPauls,
+.bus,
+.cab,
+.skyline,
+.towerBridge {
+}
+
 /* LVHA */
 a:link {
   text-decoration: none;
