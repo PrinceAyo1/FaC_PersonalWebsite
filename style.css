@@ -98,3 +98,11 @@ p.whyDetails {
 ul {
   list-style: none;
 }
+
+.thePerson,
+.theClergyman,
+.theTeacher,
+.theStudent,
+.theSinger {
+  border: 2px solid white;
+}
