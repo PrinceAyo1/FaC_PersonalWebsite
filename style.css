@@ -8,20 +8,24 @@ html {
 body {
   margin: 0;
 }
-/*this section overrides margins that might apply to h1s and h2s*/
+/*this section overrides margins that might apply to h1s, h2s and p tags. I also justified the text. I have changed the font weight of the h1s and h2s*/
 h1,
 h2,
 p {
   margin: 0;
+  text-align: justify;
 }
-
+h1,
+h2 {
+  font-weight: bold;
+}
 /*This section covers Title (with my name, Navigation Bar, and each menu item*/
 .titleAndMenu {
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #4cc9f0;
+  background-color: #eeeeee;
 }
 
 .heading {
@@ -43,10 +47,10 @@ p {
    display: flex;
 }*/
 
-div.about {
+.about {
   background-color: rgb(50, 111, 180);
 }
-div.aboutDetails {
+.aboutDetails {
   color: rgb(255, 255, 255);
   display: flex;
   flex: 0 1 auto;
@@ -56,7 +60,7 @@ div.aboutDetails {
   gap: 1em;
 }
 
-div.why {
+.why {
   background-color: rgb(156, 192, 233);
 }
 
@@ -75,7 +79,7 @@ div.why {
 .whyTitle {
   color: blue;
 }
-
+/*
 .github {
   color: black;
 }
@@ -86,7 +90,11 @@ div.why {
 .projectLinks {
   color: rgb(218, 22, 22);
 }
-
+*/
 p.whyDetails {
   color: rgb(255, 255, 255);
+}
+/* removed bullet points */
+ul {
+  list-style: none;
 }
